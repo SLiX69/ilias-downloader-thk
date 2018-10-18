@@ -5,8 +5,6 @@ This is a bash script to download content from the ILIAS e-Learning platform (TH
   * Place the correspoding *names* in the array __names__
 
 Eg:
-| names | refs    |
-|-------|---------|
-| AM    | 683143  |
-| SM    | 1140868 | 
 
+AM  = 683143
+SM  = 1140868
