@@ -14,9 +14,9 @@ This is a loose collection of scripts (win, linux) to download content from the 
 run sync at 7:05, 8:05 ..., 22:05 every day
 
 #### 4) `th_sync.sh`
-`/usr/bin/mount /mnt/th/DB2
-rsync --update -raz  --exclude 'lost+found' --progress /mnt/th/DB2/ ~/th/DB2/
-/usr/bin/umount /mnt/th/DB2`
+`/usr/bin/mount /mnt/th/DB2`
+`rsync --update -raz  --exclude 'lost+found' --progress /mnt/th/DB2/ ~/th/DB2/`
+`/usr/bin/umount /mnt/th/DB2`
 
 
 
